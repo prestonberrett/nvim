@@ -109,6 +109,12 @@ local plugins = {
         end,
     },
     {
+      "ThePrimeagen/vim-be-good",
+	  --config = function()
+		--require("vim-be-good").setup({})
+	  --end
+    },
+    {
         "ThePrimeagen/refactoring.nvim",
         dependencies = {
             "nvim-lua/plenary.nvim",
