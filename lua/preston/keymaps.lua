@@ -79,7 +79,7 @@ map('i', '<c-u>', '<c-r>=trim(system(\'uuidgen\'))<cr>', noremap_options)
 --NOTE: Hex 2 RGBA Plugin
 map('n', '<leader>cs', ':lua require("hex2rgba").hex2rgba()<cr>', noremap_options)
 
---TODO: Move these into my actual snippets with luasnip 
+--TODO: Move these into my actual snippets with luasnip
 --Dotfiles snippets
 map('n', ',html', ':-1read $HOME/.dotfiles/skeletons/skeleton.html<CR>3jwf>a', noremap_options)
 map('n', ',react', ':-1read $HOME/.dotfiles/skeletons/skeleton.jsx<CR>2j3wce', noremap_options)
